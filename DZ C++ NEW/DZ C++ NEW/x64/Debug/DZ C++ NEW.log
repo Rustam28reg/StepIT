@@ -1,0 +1,5 @@
+﻿  DZ C++ NEW.cpp
+  Functions.cpp
+  Generating Code...
+C:\Users\rusta\source\repos\DZ C++ NEW\DZ C++ NEW\Functions.cpp(91): warning C4715: 'diff_foo': not all control paths return a value
+  DZ C++ NEW.vcxproj -> C:\Users\rusta\source\repos\DZ C++ NEW\x64\Debug\DZ C++ NEW.exe
