@@ -11,5 +11,5 @@ private:
 
 public:
 	cpu() = default;
-	cpu(uint16_t cores, uint16_t frequency, string socketTipe = "");
+	cpu(string make, string model, string setialNumber, uint16_t cores, uint16_t frequency, string socketTipe = "");
 };

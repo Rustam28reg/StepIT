@@ -8,5 +8,5 @@ public:
 	string memory;
 
 	memoryHdd() = default;
-	memoryHdd(string memory);
+	memoryHdd(string make, string model, string setialNumber, string memory);
 };

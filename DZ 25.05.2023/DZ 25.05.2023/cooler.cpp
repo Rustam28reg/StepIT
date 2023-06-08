@@ -1,12 +1,8 @@
-#include <iostream>
-#include <string>
 #include "cooler.h"
-#include "component.h"
-using namespace std;
 
 
-cooler::cooler() = default;
-cooler::cooler(string coolingTipe, string appointment) : component(make, model, serialNumber)
+
+cooler::cooler(string make, string model, string setialNumber, string coolingTipe, string appointment) : component(make, model, serialNumber)
 {
 	this->coolingTipe = coolingTipe;
 	this->appointment = appointment;

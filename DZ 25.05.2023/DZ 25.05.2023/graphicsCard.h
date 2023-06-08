@@ -1,7 +1,5 @@
-#include <iostream>
 #include "cpu.h"
-#include "component.h"
-using namespace std;
+
 
 struct graphicsCard : public component
 {
@@ -10,5 +8,5 @@ protected:
 	uint16_t memory;
 public:
 	graphicsCard() = default;
-	graphicsCard(uint16_t memory);
+	graphicsCard(string make, string model, string setialNumber, uint16_t memory);
 };

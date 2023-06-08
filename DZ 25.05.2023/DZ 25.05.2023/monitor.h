@@ -12,5 +12,5 @@ public:
 	uint16_t frequency; // частота обновления 
 
 	monitor() = default;
-	monitor(string matrix, uint16_t diagonal, string screenResolution, uint16_t frequency);
+	monitor(string make, string model, string setialNumber, string matrix, uint16_t diagonal, string screenResolution, uint16_t frequency);
 };

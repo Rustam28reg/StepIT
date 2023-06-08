@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include "component.h"
 #include "motherBoard.h"
 #include "monitor.h"
 #include "psu.h";
@@ -16,6 +15,6 @@ private:
 	string mouse{};
 public:
 	computer() = default;
-	computer(monitor _monitor_, computerCase computer_case, string _keyboard, string _mouse);
+	computer(string make, string model, string setialNumber, monitor _monitor_, computerCase computer_case, string _keyboard, string _mouse);
 	
 };

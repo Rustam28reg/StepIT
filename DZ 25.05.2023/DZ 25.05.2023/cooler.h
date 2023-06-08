@@ -10,6 +10,6 @@ public:
 	string appointment; // назначение 
 
 	cooler() = default;
-	cooler(string coolingTipe, string appointment);
+	cooler(string make, string model, string setialNumber, string coolingTipe, string appointment);
 
 }; 

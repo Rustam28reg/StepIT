@@ -8,5 +8,5 @@ public:
 	string memory;
 
 	memorySsd() = default;
-	memorySsd(string memory);
+	memorySsd(string make, string model, string setialNumber, string memory);
 };

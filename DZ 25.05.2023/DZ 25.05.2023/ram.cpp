@@ -1,11 +1,7 @@
-#include <iostream>
-#include <string>
 #include "ram.h"
-#include "component.h"
-using namespace std;
 
-ram::ram() = default;
-ram::ram(string memory) : component(make, model, serialNumber)
+
+ram::ram(string make, string model, string setialNumber, string memory) : component(make, model, serialNumber)
 {
 	this->memory;
 }

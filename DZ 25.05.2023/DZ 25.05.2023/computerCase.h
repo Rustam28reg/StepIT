@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include "component.h"
 #include "motherBoard.h"
 #include "psu.h";
 using namespace std;
@@ -14,7 +13,7 @@ psu _psu{};
 public:
 
 	computerCase() = default;
-	computerCase(motherBoard mother_Board, psu p_s_u);
+	computerCase(string make, string model, string setialNumber, motherBoard mother_Board, psu p_s_u);
 
 };
 

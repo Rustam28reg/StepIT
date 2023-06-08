@@ -9,5 +9,5 @@ public:
 	string memory;
 
 	ram() = default;
-	ram(string memory);
+	ram(string make, string model, string setialNumber, string memory);
 };
