@@ -23,5 +23,11 @@
     <ClInclude Include="fraction.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="classRoom.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="student.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

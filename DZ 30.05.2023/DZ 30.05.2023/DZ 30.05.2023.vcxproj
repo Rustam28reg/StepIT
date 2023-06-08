@@ -130,7 +130,9 @@
     <ClCompile Include="DZ 30.05.2023.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="classRoom.h" />
     <ClInclude Include="fraction.h" />
+    <ClInclude Include="student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
