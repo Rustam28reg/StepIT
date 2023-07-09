@@ -19,7 +19,7 @@ public:
 
 };
 
-void createStudent(student _student)
+void createStudent(student& _student)
 {
 	uint16_t _age{};
 	cout << "Enter student name - "; cin >> _student.name;
@@ -84,16 +84,20 @@ struct academy
 		}
 	}
 
-	student get_facultet_student(string _facultet)
+	student* get_facultet_student(string _facultet, int &count)
 	{
-		const int iter{};
-		for (int iter = 0; iter < this->len; iter++)
+		student* _students = new student[capacity]{};
+		for (int i = 0; i < this->len; i++)
 		{
-			if (_facultet == this->students[iter].facultet)
+			if (_facultet == this->students[i].facultet)
 			{
-				return students[iter], get_facultet_student(_facultet);
+				_students[i] = this->students[i];
+				count++;
 			}
 		}
+
+		return _students;
+		
 	}
 
 };
@@ -108,13 +112,21 @@ int main()
 	//cout << "Enter last name - "; cin >> last_name;
 	//hogwards->delete_student(last_name);
 
-	//cout << hogwards[0].students[0].lastName << "hi"; // проверка удаленного первого студента 
+	//cout << hogwards->students[0].lastName << " hi"; // проверка удаленного первого студента 
 
 	cout << "Enter facultet - "; cin >> facultet;
+	
+	int count{};
+	student* res = hogwards->get_facultet_student(facultet, count);
 
+	for (size_t i = 0; i < count; i++)
+	{
+		cout << res[i].lastName << endl
+			 << res[i].name << endl << endl;	
+	}
+	
+	
 
-	cout << hogwards->get_facultet_student(facultet).lastName << endl
-		<< hogwards->get_facultet_student(facultet).name << endl << endl;
 
 
 
