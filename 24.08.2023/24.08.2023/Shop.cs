@@ -33,28 +33,28 @@ namespace modul3
                 $"Email - {Email}\n" +
                 $"Address - {Address}";
         }
-    }
 
-    public static class ShopManager
-    {
-        public static Shop CreateShop()
+        public static class ShopManager
         {
-            Console.Write("Enter shop name - ");
-            string name = Console.ReadLine();
+            public static Shop CreateShop()
+            {
+                Console.Write("Enter shop name - ");
+                string name = Console.ReadLine();
 
-            Console.Write("Enter store profile - ");
-            string profile = Console.ReadLine();
+                Console.Write("Enter store profile - ");
+                string profile = Console.ReadLine();
 
-            Console.Write("Enter phone number - ");
-            string number = Console.ReadLine();
+                Console.Write("Enter phone number - ");
+                string number = Console.ReadLine();
 
-            Console.Write("Enter e-mail - ");
-            string email = Console.ReadLine();
+                Console.Write("Enter e-mail - ");
+                string email = Console.ReadLine();
 
-            Console.Write("Enter address - ");
-            string address = Console.ReadLine();
+                Console.Write("Enter address - ");
+                string address = Console.ReadLine();
 
-            return new Shop(name, address, profile, number, email);
+                return new Shop(name, address, profile, number, email);
+            }
         }
     }
 }
