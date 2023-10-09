@@ -19,7 +19,7 @@ namespace Calculator
         private string[] operators = new[] { "+", "-", "*", "/" };
         private List<string> numbers = new();
         private List<string> _operators = new();
-        private string historyBox;
+        private string historyData;
 
         private void numbersButton_Click(object sender, EventArgs e)
         {
@@ -159,12 +159,15 @@ namespace Calculator
             textBox1.Text = "";
             numbers.Clear();
             _operators.Clear();
-            historyBox = "";
+            historyData = "";
         }
         private void backspaceButton_Click(object sender, EventArgs e)
         {
-            numbers[numbers.Count()-1] = numbers.Last().Substring(0, numbers.Last().Length - 1);
-            textBox1.Text = textBox1.Text.Substring(0, textBox1.TextLength - 1);
+            if (numbers.Count != 0)
+            {
+                numbers[numbers.Count() - 1] = numbers.Last().Substring(0, numbers.Last().Length - 1);
+                textBox1.Text = textBox1.Text.Substring(0, textBox1.TextLength - 1);
+            }
         }
 
         private void dotButton_Click(object sender, EventArgs e)
@@ -187,39 +190,40 @@ namespace Calculator
                 }
             }
             double result = double.Parse(numbers[0]);
-            historyBox += result;
+            historyData += result;
 
             for (int i = 1; i <= _operators.Count; i++)
             {
                 if (_operators[i - 1].Equals("+"))
                 {
                     result += double.Parse(numbers[i]);
-                    historyBox += $" + {double.Parse(numbers[i])}";
+                    historyData += $" + {double.Parse(numbers[i])}";
                 }
                 if (_operators[i - 1].Equals("-"))
                 {
                     result -= double.Parse(numbers[i]);
-                    historyBox += $" - {double.Parse(numbers[i])}";
+                    historyData += $" - {double.Parse(numbers[i])}";
                 }
                 if (_operators[i - 1].Equals("*"))
                 {
                     result *= double.Parse(numbers[i]);
-                    historyBox += $" * {double.Parse(numbers[i])}";
+                    historyData += $" * {double.Parse(numbers[i])}";
                 }
                 if (_operators[i - 1].Equals("/") && double.Parse(numbers[i]) != 0)
                 {
                     result /= double.Parse(numbers[i]);
-                    historyBox += $" / {double.Parse(numbers[i])}";
+                    historyData += $" / {double.Parse(numbers[i])}";
                 }
             }
 
             textBox1.Text = result.ToString();
-            historyBox += $" = {result}\t";
+            historyData += $" = {result}\t";
 
             numbers.Clear();
+            numbers.Add(result.ToString());
             _operators.Clear();
-            listBox.Items.Add(historyBox);
-            historyBox = "";
+            listBox.Items.Add(historyData);
+            historyData = "";
 
         }
     }
