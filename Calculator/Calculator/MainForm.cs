@@ -45,6 +45,12 @@ namespace Calculator
         }
         private void zeroButton_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == "/")
+            {
+                MessageBox.Show("Error");
+                clearButton_Click(sender, e);
+                return;
+            }
             numbersButton_Click(sender, e);
         }
         private void buttonNumber1_Click(object sender, EventArgs e)
