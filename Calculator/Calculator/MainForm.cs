@@ -108,7 +108,7 @@ namespace Calculator
                 _operators.Add(button.Text);
             }
         }
-        private void minusButton_Click(object sender, EventArgs e)  // тут надо продумать возможность создания отрицательного числа
+        private void minusButton_Click(object sender, EventArgs e)  
         {
             bool check = true;
             foreach (var item in operators)
