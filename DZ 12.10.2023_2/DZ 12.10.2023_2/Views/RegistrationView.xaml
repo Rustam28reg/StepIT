@@ -1,0 +1,36 @@
+﻿<Page x:Class="DZ_12._10._2023_2.Views.RegistrationView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:DZ_12._10._2023_2.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="450"
+      Title="RegistrationView">
+
+    <Grid Background="#c9ccd1">
+        <Border Height="480" Width="430" Background="white" VerticalAlignment="Center" Padding="30" CornerRadius="30">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Registration" FontSize="22" TextAlignment="Center" Margin="0,0,0,20" FontFamily="Times New Roman" Foreground="#FF573492"/>
+
+                <TextBox materialDesign:HintAssist.Hint ="Login" Width="330"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <PasswordBox materialDesign:HintAssist.Hint ="Password" Width="330"  Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>
+                <PasswordBox materialDesign:HintAssist.Hint ="Repeat password" Width="330"  Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>
+                <TextBox materialDesign:HintAssist.Hint ="Email" Width="330" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+
+                <Button Margin="0 20 0 0" Content="Create"/>
+
+                <Grid Margin="0 10 0 20">
+                    <Button HorizontalAlignment="Center" Content="Back"  Style="{StaticResource MaterialDesignFlatButton}"/>
+
+                </Grid>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>
