@@ -19,7 +19,8 @@ var configuration = builder.Build();
 using SqlConnection connection = new(configuration.GetConnectionString("Default"));
 connection.Open();
 
-using SqlCommand command2 = new("SELECT COUNT(*) FROM Teachers", connection);
+
+/*using SqlCommand command2 = new("SELECT COUNT(*) FROM Teachers", connection);
 object result1 = command2.ExecuteScalar();
 Console.WriteLine($"Rows - {result1}");
 
@@ -55,4 +56,4 @@ using SqlDataReader reader = command.ExecuteReader();
         Console.WriteLine($"{reader[0]}\t{reader[1]}\t{reader[2]}\t{reader[3]}");
     }
 }
-reader.Close(); // Странный момент заключается в том что using не закрывает Read, хотя SqlDataReader имплементируется от IDisposable
+reader.Close(); */
