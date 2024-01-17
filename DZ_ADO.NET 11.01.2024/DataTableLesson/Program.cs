@@ -1,4 +1,4 @@
-namespace DZ_ADO.NET_11._01._2024
+namespace DataTableLesson
 {
     internal static class Program
     {
@@ -11,7 +11,7 @@ namespace DZ_ADO.NET_11._01._2024
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new MainWindow());
         }
     }
 }
