@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace ImdbMovieSearch._01._2024
+namespace _20
 {
     /// <summary>
     /// Interaction logic for App.xaml
