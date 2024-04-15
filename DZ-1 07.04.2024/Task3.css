@@ -3,6 +3,6 @@
 }
 
 .synonyms-text {
-    color: blue;
-    white-space: nowrap;
+    color: blue;    
+    display: inline;
 }
