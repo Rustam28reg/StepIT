@@ -1,0 +1,44 @@
+.body-style {
+     margin: 0px;
+}
+
+.header {
+    font-size: 12px;
+    height: 54px;
+    background-color: #262626;
+    z-index: 100;
+    line-height: 54px;
+    margin-bottom: 1px;
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    display: inline-block;
+    text-indent: -9999px;
+    height: 18px;
+    width: 152px;
+    /* background: url(img/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg); */
+    background-size: 152px 18px;
+    margin: 0 0 0 1.6em;
+}
+
+.logo a {
+    display: block;
+    height: 18px;
+}
+
+.preview__actions {
+    margin-right: 20px; /* Добавляем отступ справа */
+}
+
+.buy-button {
+    color: white;
+    font-size: 15px;
+    background-color: #6f9a37;
+    padding: 8px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+}
