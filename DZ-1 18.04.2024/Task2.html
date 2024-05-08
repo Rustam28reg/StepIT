@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="square" id="animatedSquareLeft"></div>
+        <span class="text" id="text">HELLO</span>
+        <div class="square" id="animatedSquareRight"></div>
+    </div>
+
+    <script>
+        document.querySelector(".container").addEventListener("click", function() {
+            var leftSquare = document.getElementById("animatedSquareLeft");
+            var rightSquare = document.getElementById("animatedSquareRight");
+            var text = document.getElementById("text");
+
+            leftSquare.classList.toggle("clickLeft");
+            rightSquare.classList.toggle("clickRight");
+
+            if(text.style.opacity == 0){
+                text.style.opacity = 1;
+            }else{
+                text.style.opacity = 0;
+            }
+        });
+    </script>
+</body>
+</html>
