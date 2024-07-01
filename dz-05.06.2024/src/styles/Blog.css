@@ -1,0 +1,40 @@
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  .blog-post h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .blog-post .tags {
+    margin-top: 10px;
+  }
+  
+  .blog-post .tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 4px;
+    font-size: 14px;
+  }
