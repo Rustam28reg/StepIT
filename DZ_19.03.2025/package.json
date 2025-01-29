@@ -7,6 +7,6 @@
     "start": "node index.js"
   },
   "author": "Rustam28reg",
-  "license": "ISC"
-
+  "license": "ISC",
+  "keywords": []
 }
