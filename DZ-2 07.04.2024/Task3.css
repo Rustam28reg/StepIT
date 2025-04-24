@@ -1,0 +1,67 @@
+.header-style {
+    background-color: rgb(146, 49, 104);
+    color: white;
+    height: 50px;
+    display: flex;
+}
+
+.header-style p {
+    margin: 1em 0 1em 3em;
+}
+
+.menu-style {
+    background-color: rgb(98, 9, 59);
+    color: white;
+    height: 50px;
+    display: flex;
+    margin: 1em 0 1em 0;
+}
+
+.menu-style p {
+    margin: 1em 0 0 3em;
+}
+
+.content-style {
+    display: flex;    
+    align-items: stretch;
+}
+.content-style aside {
+    height: 500px;
+}
+
+.aside-left {
+    background-color: rgb(146, 49, 104);
+    margin: 1em 0 1em 0;
+    color: white;    
+    display: flex;
+    height: 45%;
+    justify-content: center;
+    width: 9em;
+    flex: 1;
+}
+.aside-right {
+    background-color: rgb(146, 49, 104);
+    margin: 1em 0 1em 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 9em;
+}
+
+
+
+.main-content {
+    background-color: rgb(146, 49, 104);
+    margin: 1em 1em 1em 1em;
+    width: 100%;
+    color: white;
+    padding: 1em;
+}
+
+.section-style {
+    background-color: rgb(220, 105, 170);
+    margin: 1em 0 1em 0;
+    width: 100%;
+    height: 35%;
+    color: white;
+}

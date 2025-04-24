@@ -1,0 +1,34 @@
+.portfolio ul,
+.portfolio li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.portfolio li {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; /* Добавляем небольшое пространство между элементами */
+}
+
+.portfolio img {
+    max-width: 100%;
+    display: block;
+}
+
+.descr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+}
+
+.portfolio li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Добавляем тень при наведении курсора на элемент */
+}
+
+.portfolio li:hover {
+    opacity: 1;
+    background-color: red;
+}
