@@ -1,0 +1,12 @@
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/bin/Debug/net8.0/Auth.Shared.deps.json
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/bin/Debug/net8.0/Auth.Shared.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/bin/Debug/net8.0/Auth.Shared.pdb
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/Auth.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/Auth.Shared.AssemblyInfoInputs.cache
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/Auth.Shared.AssemblyInfo.cs
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/Auth.Shared.csproj.CoreCompileInputs.cache
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/Auth.Shared.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/refint/Auth.Shared.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/Auth.Shared.pdb
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/ref/Auth.Shared.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Shared/obj/Debug/net8.0/Auth.Shared.csproj.AssemblyReference.cache

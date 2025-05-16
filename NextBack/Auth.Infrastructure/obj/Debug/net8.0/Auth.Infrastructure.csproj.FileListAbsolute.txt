@@ -1,0 +1,17 @@
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/bin/Debug/net8.0/Auth.Infrastructure.deps.json
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/bin/Debug/net8.0/Auth.Infrastructure.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/bin/Debug/net8.0/Auth.Infrastructure.pdb
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/bin/Debug/net8.0/Auth.Domain.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/bin/Debug/net8.0/Auth.Shared.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/bin/Debug/net8.0/Auth.Domain.pdb
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/bin/Debug/net8.0/Auth.Shared.pdb
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.csproj.AssemblyReference.cache
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.AssemblyInfoInputs.cache
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.AssemblyInfo.cs
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/Auth.Inf.EC29ECAC.Up2Date
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/refint/Auth.Infrastructure.dll
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/Auth.Infrastructure.pdb
+/Users/rustam/Desktop/Next-Project/Project/Auth.Infrastructure/obj/Debug/net8.0/ref/Auth.Infrastructure.dll
